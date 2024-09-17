@@ -506,6 +506,34 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <!-- VIO -->
+          <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
+            <td style="padding:10px;width:25%;vertical-align:top">
+              <div class="one">
+                <img src='images/ekf.png' width="160"> 
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:top">
+              <papertitle><strong>Visual Inertial Odometry using Extended Kalman Filter</strong></papertitle>
+              <br> <a href="https://github.com/shounaknaik/Visual-Inertial-Odometry-EKF">Github</a>
+              <p>Implemented an EKF Filter to track drone pose in a 3D space by Visual Inertial Odometry </p>
+              <p>Designed and implemented the process model to input IMU accelaration, the observation model corrected the estimate after it's independent
+                 pose estimation step using AprilTags.</p>
+            </td>
+          <!-- Nav2 Waypoint -->
+          <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
+              <td style="padding:10px;width:25%;vertical-align:top">
+                <div class="one">
+                  <img src='images/nav2.jpg' width="160"> 
+                </div>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:top">
+                <papertitle><strong>Custom Robot Navigation using Nav2</strong></papertitle>
+                <br> <a href="https://github.com/shounaknaik/nav2_waypoint_following_bot_lidar">Github</a>
+                <p>Built a bot having LiDAR with URDF/SDF. Setup Odometry plugins in the URDF as well.</p>
+                <p>Navigated the bot through set waypoints in the map using the LiDAR and nav2.</p>
+              </td>
+
           <!-- Scara -->
           <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
             <td style="padding:10px;width:25%;vertical-align:top">
@@ -522,7 +550,7 @@
             </td>
 
 
-            <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
+          <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
               <td style="padding:10px;width:25%;vertical-align:top">
                 <div class="one">
                   <img src='images/Drone Frames.png' width="140"> 
